@@ -1,0 +1,362 @@
+/* misc */
+
+@media screen and (min-width: 320px) and (max-width: 767px) and (orientation: landscape) {
+    html {
+      transform: rotate(-90deg);
+      transform-origin: left top;
+      width: 100vh;
+      height: 100vw;
+      overflow-x: hidden;
+      position: absolute;
+      top: 100%;
+      left: 0;
+    }
+  }
+
+html {
+    scroll-behavior: smooth;
+}
+
+img {
+    user-select: none;
+    -webkit-user-drag: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+
+/* header css */
+
+.header {
+    opacity: 0.85;
+    text-align: center;
+    z-index: 1;
+    position: fixed;
+    top: 0px;
+    width: 960px;
+    height: 130px;
+    background: rgb(238, 243, 246);
+}
+
+#title {
+    position: absolute;
+    top: 20px;
+    left: 260px;
+    height: 50%;
+}
+
+#titleoverlay {
+    position: absolute;
+    top: 20px;
+    left: 262px;
+    height: 50%;
+}
+
+#eicon {
+   
+    height: 65%;
+    padding-top: 25px;
+    padding-left: 10px;
+    margin: auto 5px;
+    float: left;
+}
+
+#plicon {
+    opacity: 0.8;
+    height: 65%;
+    padding-top: 25px;
+    padding-right: 20px;
+    margin: auto 5px;
+    float: right;
+}
+
+
+
+/* body css */
+body {  
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(246, 241, 241);
+    width: 960px;
+}
+
+hr {
+    height: 7px;
+    border: none;
+}
+
+h2 {
+    color: rgb(248, 70, 213);
+}
+
+figcaption {
+    font-size: 0.5vw;
+    margin-left: 50px;
+}
+
+.ct {
+    margin-top: 5px;
+    width: 400px;
+    height: 575px;
+    background-color: rgb(235, 235, 249);
+}
+
+.ct2 {
+    margin-top: 7px;
+    margin-left: 40px;
+    width: 400px;
+    height: 290px;
+    background-color: rgb(207, 207, 255);
+    background:linear-gradient(rgba(255, 255, 255, 0.2), rgba(152, 116, 116, 0.5)), url("../images/outside.jpg");
+    background-size: 120%;
+}
+
+.tile {
+    background-image: url("../images/texture.png");
+    background-repeat: repeat;
+    background-size: 100%;
+    background-color: #f2d5a4;
+    opacity: 0.5;
+    height: 100px;
+    border-top: none;
+    border-bottom: 2px solid white;
+}
+
+.caption {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+#aac {
+    padding-top: 10px;
+    padding-bottom: 45px;
+    background-color: rgb(246, 233, 220);
+}
+
+#apology {
+    background-image: url("../images/color.gif");
+    background-size: cover;
+    background-color: rgb(248, 213, 213);
+    width: 960px;
+    height: 1200px;
+    text-align: center;
+}
+
+
+/* images */
+#paris {
+    margin-top: 130px;
+    width: 100%;
+    filter: brightness(110%);
+    
+}
+
+
+#seine {
+    border: 2px solid white;
+    position: absolute;
+    margin-left: 50px; 
+    margin-top: 60px;
+    width: 300px;
+}
+
+#ver {
+    margin-bottom: 50px;
+    margin-top: 5px;
+    margin-left: 50px;
+    margin-right: 40px;
+    width: 400px;
+    height: 575px;
+    background:linear-gradient(rgba(255, 255, 255, 0.2), rgba(152, 116, 116, 0.5)), url("../images/ver.jpg");
+    background-size: 100%;
+}
+
+
+#verin {
+    margin-top: 5px;
+    margin-left: 50px;
+    width: 400px;
+    height: 290px;
+    background:linear-gradient(rgba(255, 255, 255, 0.2), rgba(152, 116, 116, 0.5)), url("../images/verin.jpg");
+    background-size: 100%;
+}
+
+/* positional */
+
+.right_f {
+    float: right;
+    margin-right: 20px;
+}
+
+.clear_f {
+    clear: right;
+}
+
+
+.dflex {
+    display: inline-flex;
+}
+
+
+#reason {
+    display: inline-block;
+    text-align: left;
+}
+
+.container {
+    text-align: center;
+    color: white;
+    display: inline-block;
+    background-color: blanchedalmond;
+    width: 200px;
+    height: 200px;
+    margin-top: 50px;
+    margin-right: 40px;
+    margin-bottom: 45px;
+}
+
+.one {
+    background:linear-gradient(rgba(162, 148, 223, 0.5), rgba(144, 116, 152, 0.5)), url("../images/b.jpg");
+    background-size: 145%;
+    margin-left: 115px; 
+}
+
+.two {
+    background:linear-gradient(rgba(193, 143, 143, 0.5), rgba(135, 135, 135, 0.5)), url("../images/statue.jpg");
+    background-size: 100%;
+}
+
+.three {
+    background:linear-gradient(rgba(180, 158, 147, 0.5), rgba(233, 176, 147, 0.5)), url("../images/food.jpg");
+    background-size: 109%;   
+}
+
+.cdisplay {
+    padding-top: 10px;
+    font-family: 'Rubik', Arial, Helvetica, sans-serif;
+}
+
+#cn {
+    position: relative;
+    right: 110px;
+    color: rgb(138, 133, 133)
+}
+
+.subcontainer {
+    position: absolute;
+    left: 235px;
+    margin-top: 75px; 
+}
+
+.left {
+    margin-left: 400px;
+    margin-right: 50px;
+}
+
+.top {
+    vertical-align: top;
+}
+
+.lorem {
+    position: relative;
+    top: 75px;
+    right: 75px;
+    font-size: 0.8vw;
+}
+
+#useless {
+    font-style: italic;
+    font-weight: bold;
+    color: red;
+}
+
+.sp {
+    text-decoration: underline;
+    position: relative;
+    left: 120px;
+}
+
+td, tr, th {
+    font-weight: normal;
+    border: 2px solid red;
+}
+
+#afsjhasfgadkjhasdgiq3tet8q7e1te1t278et1e87t12ehjasdah {
+    border: 2px solid red;
+    height: 200px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+}
+
+/* animation */
+.view { opacity: 0; }
+.view:hover { opacity: 1; }
+.dark:hover { filter: brightness(60%); }
+.grow { transition: all .4s ease-in-out; }
+.grow:hover { transform: scale(1.009); }
+
+a {
+    font-family: 'Alkalami', 'Times New Roman', Times, serif;
+    font-size: 1.3vw;
+    padding-right: 20px;
+    text-decoration: none;
+}
+
+a:link {
+    color:rgb(41, 1, 48);
+}
+a:hover { animation: color-change 3s infinite; }
+@keyframes color-change {
+    0% { color: rgb(41, 1, 48); }
+    50% { color: rgb(178, 39, 148); }
+    100% {  color: rgb(41, 1, 48); }
+  }
+
+.fadein { animation: fadein 5s; }
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+a:visited {
+    color:rgb(41, 1, 48);
+}
+
+a:active {
+    color: yellow;
+}
+
+/* color */
+#red {
+    background-color: #FFADAD;
+}
+
+#orange {
+    background-color: #FFD6A5;
+}
+
+#yellow {
+    background-color: #FDFFB6;
+}
+
+#green {
+    background-color: #CAFFBF;
+}
+
+#blue {
+    background-color: #9BF6FF;
+}
+
+#purple {
+    background-color: #BDB2FF;
+}
+
+.light-blue {
+    background-color: aliceblue;
+    padding-bottom: 20px;
+}
